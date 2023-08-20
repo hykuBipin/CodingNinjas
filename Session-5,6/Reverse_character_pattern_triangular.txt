@@ -1,0 +1,23 @@
+import java.util.*;
+
+
+public class Solution
+{
+	public static void main(String[] args) {
+		  Scanner s = new Scanner(System.in);
+	        int n = s.nextInt();
+	        int rows = 1;
+	        while(rows<=n){
+	            int cols = 1;
+	            char printVal = (char)('A'+n - cols);
+	            while(cols<=rows){
+	                System.out.print(printVal);
+	                printVal = (char)(printVal-1);
+	                cols++;
+	            }
+	            System.out.println();
+	            rows++;
+	        }
+	        s.close();		
+	}
+}

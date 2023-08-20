@@ -1,0 +1,31 @@
+import java.util.Scanner;
+import java.util.*;
+public class Main {	
+	public static void main(String[] args) {
+		
+		/* Your class should be named Solution.
+	 	* Read input as specified in the question.
+	 	* Print output as specified in the question.
+		*/
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+		int rows = 1;
+		while (rows <= n) {
+			int printVal = 2*rows -1;
+			int cols = 1;
+			while(cols<=n) {
+				System.out.print(printVal);
+				printVal = printVal + 2;
+				if(printVal > 2*n -1) {
+					printVal = 1;
+				}
+				cols++;
+			}
+			System.out.println();
+			rows++;
+		}
+		s.close();
+
+	}
+
+}

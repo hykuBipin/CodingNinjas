@@ -1,0 +1,17 @@
+import java.util.*;
+
+
+public class Solution
+{
+	public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+        long val1 = scanner.nextLong();
+		if (val1 > 0)
+		{
+			System.out.println("Positive");
+		}else
+		{
+			System.out.println("Negative");
+		}
+	}
+}

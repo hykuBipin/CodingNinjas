@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+	
+	public static void main(String[] args) {
+		// Write your code here
+
+	int number_of_recs,multiples;
+   Scanner val1=new Scanner(System.in);
+   number_of_recs=val1.nextInt();
+   for(multiples=1; multiples<=10; multiples++)
+   System.out.println(number_of_recs*multiples);
+
+	}
+}

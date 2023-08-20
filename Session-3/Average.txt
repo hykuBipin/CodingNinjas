@@ -1,0 +1,35 @@
+import java.util.*;
+import java.util.Scanner;
+
+
+public class Solution
+{
+	public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+    double percentage = scanner.nextDouble();
+	// String grade;
+ 
+            if (percentage >= 75 && percentage <= 100) {
+				System.out.println("Distinction");
+                // grade = 'Distinction';
+            }
+            else {
+                if (percentage >= 50 && percentage <= 75) {
+					System.out.println("Average");
+                    // grade = 'Average';
+                }
+                else {
+                    if (percentage >= 35 && percentage <= 50) {
+						System.out.println("Below Average");
+                        // grade = 'Below Average';
+                    }
+                    else {
+						System.out.println("Below Average");
+                        // grade = 'Below Average';
+                    }
+                }
+            }
+        }
+ 
+        // System.out.println(grade);
+    }
